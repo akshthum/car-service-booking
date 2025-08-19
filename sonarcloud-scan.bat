@@ -12,7 +12,7 @@ if not exist "sonar-scanner" (
  
 REM SonarCloud analysis with actual project details
 sonarclous
-sonar-scanner\bin\sonar-scanner.bat -Dsonar.organization=lohitha050 -Dsonar.projectKey=lohitha050_city-issue-reporter -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=65fc48537f43a16c7b3e779c753187b6439fd4a2
+sonar-scanner\bin\sonar-scanner.bat -Dsonar.organization=akshthum -Dsonar.projectKey=akshthum -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=20c2ee6f52e7bb777a5c57381623390989a6eda0
  
 echo Analysis complete! Check https://sonarcloud.io
 pause
